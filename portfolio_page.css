@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    float: right;
+    color: #000000;
+    text-align: right;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    color: blue;
+}
+
+#navbar a:focus {
+    color: rgb(243, 12, 12);
+}
+
+#name {
+    font-size: 17;
+    text-align: center;
+    position: static;
+}
+
+#photo {
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    text-align: lefts;
+    bottom: 5%;
+    top: 200px;
+    color: black;
+    background-color: greenyellow;
+}
+
+#ul {
+    font-size: large;
+}
+
+#list {
+    font-size: large;
+}
+
+.contact {
+    font-size: large;
+    font-weight: bold;
+}
+
+div.gallery {
+    margin: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #photo {
+        display: none;
+    }
+    #omnie {
+        font-size: larger
+    }
+    .contact {
+        font-size: larger;
+    }
+    #name {
+        font-size: 23;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #photo {
+        display: none;
+    }
+    #omnie {
+        font-size: larger
+    }
+    .contact {
+        font-size: larger;
+    }
+    #name {
+        font-size: 23;
+    }
+}
