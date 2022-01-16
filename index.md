@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/marek123271/own_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <title>Marek Sroczynski portfolio page</title>
+    <link rel="stylesheet" href="portfolio_page.css">
+</head>
+<title>Marek Sroczynski</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<body>
+    <h1 id="name">Marek Sroczynski</h1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+    <nav id="navbar">
+        <a href="#omnie">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
 
-- Bulleted
-- List
+    </nav>
+    <img id="photo" src="zdjecie.jpg" alt="Marek Sroczynski" width="350px" height="360px">
+    <h1 id="omnie">About me</h1>
+    <ul>
 
-1. Numbered
-2. List
+        <p id="ul">Hi, Im Marek. I've graduated Neurocognitive since in Social School Of Psychology in Warsaw, Poland. <br>My master degree study was about corelation between face recogniotion and color of presented pictures.<br> I was interested of programing since
+            my study during wchich I had some practice from Python.<br> After few years I decided to go back on this path and started learning programming languages. <br> <br>My hobby is water sport and partys, <br> because I used to work as a decorator
+            and light director on festiwals and events.</p>
 
-**Bold** and _Italic_ and `Code` text
+    </ul>
+    <h1 id="projects">Projects</h1>
+    <ul id="list">
+        <li>Mixed Messages</li>
+        <li>Number Guesser</li>
+        <li>Credit Card Checker</li>
+    </ul>
+    <h1 id="skills">Skills</h1>
+    <div class="gallery">
+        <img id="z1" src="css 2.jpg" alt="html" width="230" height="280" ;>
+        <img id="z2" src="html.jpg" alt="css" width="230" height="280" ;>
+        <img id="z3" src="js2.jpg" alt="js" width="230" height="280" ;>
+        <img id="z4" src="git.png" alt="git">
+    </div>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marek123271/own_page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <h1 id="contact">Contact</h1>
+    <address>
+    <a class="contact" href="mailto:marek123271@gmail.com">marek123271@gmail.com</a>
+    <br>
+    <a class="contact" href=tel:+447759293479">tel: 07759293479</a><br>
+    <a class="contact"  href="https://www.linkedin.com/in/marek-sroczyński-9ba546197/">linkedin page</a>
+    <br>
+    <a id="contact2" href="https://www.facebook.com/Decumanimatorium"></a>
+    
+    </address>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="button" onclick="myFunction()">Turn on Party Mode</button>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <script>
+        function myFunction() {
+            document.body.style.backgroundColor = "rgb(173, 90, 17)";
+            document.getElementById("navbar").style.fontFamily = "Impact,Charcoal,sans-serif";
+            document.getElementById("photo").src = "zdjecie 2.jpg";
+            document.getElementById("z1").src = "drzewa1.jpg";
+            document.getElementById("z2").src = "drzewa2.jpg";
+            document.getElementById("z3").src = "drzewa3.jpg";
+            document.getElementById("z4").src = "logoda.jpg";
+            document.getElementById("contact2").innerHTML = "click here and see Decum Animatorium FB page :)"
+        }
+    </script>
+
+</body>
+
+</html>
